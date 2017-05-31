@@ -1,0 +1,50 @@
+# Build folder and log file
+build/
+build.log
+
+
+P-value color scale
+> 10-3	10-3 to 10-5	10-5 to 10-7	10-7 to 10-9	< 10-9
+ 
+
+ 
+
+GO term	Description	P-value	FDR q-value	Enrichment (N, B, n, b)	Genes
+GO:1903047	mitotic cell cycle process	6.26E-15	8.76E-11	2.77 (9092,441,596,80)	[+] Show genes
+GO:0022402	cell cycle process	1.23E-14	8.6E-11	2.40 (9092,654,586,101)	[+] Show genes
+GO:0051276	chromosome organization	4.49E-11	2.1E-7	3.19 (9092,259,484,44)	[+] Show genes
+GO:0098813	nuclear chromosome segregation	4.22E-10	1.48E-6	8.69 (9092,25,586,14)	[+] Show genes
+GO:0007346	regulation of mitotic cell cycle	5.76E-10	1.61E-6	4.17 (9092,351,180,29)	[+] Show genes
+Species used: Homo sapiens
+
+The system has recognized 10746 genes out of 14564 gene terms entered by the user.
+10741 genes were recognized by gene symbol and 5 genes by other gene IDs .
+1425 duplicate genes were removed (keeping the highest ranking instance of each gene) leaving a total of 9321 genes.
+Only 9092 of these genes are associated with a GO term.
+
+
+Unresolved genes
+Duplicate genes
+
+Visualize output in REViGO 
+The GOrilla database is periodically updated using the GO database and other sources.
+The GOrilla database was last updated on May 27, 2017
+
+This results page will be available on this site for one month from now (until Jun 30, 2017 ). You can bookmark this page and come back to it later.
+
+
+'P-value' is the enrichment p-value computed according to the mHG or HG model. This p-value is not corrected for multiple testing of 14005 GO terms.
+
+'FDR q-value' is the correction of the above p-value for multiple testing using the Benjamini and Hochberg (1995) method. 
+Namely, for the ith term (ranked according to p-value) the FDR q-value is (p-value * number of GO terms) / i. 
+
+Enrichment (N, B, n, b) is defined as follows:
+N - is the total number of genes
+B - is the total number of genes associated with a specific GO term
+n - is the number of genes in the top of the user's input list or in the target set when appropriate
+b - is the number of genes in the intersection
+Enrichment = (b/n) / (B/N)
+
+Genes: For each GO term you can see the list of associated genes that appear in the optimal top of the list.
+Each gene name is specified by gene symbol followed by a short description of the gene 
+Back to the GOrilla main page
